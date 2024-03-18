@@ -6,19 +6,19 @@ const projectsData = [
       "repoTitle": "Social Networking",
       "repoLink": "https://github.com/petemaynard/social_network_api",
       "repoDesc": "What it is",
-      "repoImage": "../../src/assets/social.png"
+      "repoImage": "../../social.png"
    },
    {
       "repoTitle": "Bartending School",
       "repoLink": "https://github.com/KDeLaria/bartending-school",
       "repoDesc": "Quiz format to test your knowledge on the ingredients in popular drinks",
-      "repoImage": "../../src/assets/bartender.png"
+      "repoImage": "../../bartender.png"
    },
    {
       "repoTitle": "Ticket Wizard",
       "repoLink": "https://github.com/petemaynard/ticket_wizard",
       "repoDesc": "Similar to TicketMaster, a site where you can find (fake) concerts and purchase tickets",
-      "repoImage": "../../src/assets/ticketwizard.png"
+      "repoImage": "../../ticketwizard.png"
    },
    {
       "repoTitle": "Project D",
