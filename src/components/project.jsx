@@ -3,29 +3,26 @@ import React from 'react';
 const Project = () => {
 const projectsData = [
    {
-      "repoTitle": "Social Networking",
-      "repoLink": "https://github.com/petemaynard/social_network_api",
-      "repoDesc": "What it is",
-      "repoImage": "../../social.png"
+      "repoTitle": "Stock Portfolio (wolf.io)",
+      "repoLink": "https://github.com/KDeLaria/stock-portfolio-app",
+      "repoDesc": "A React-based site that tracks stock portfolios.",
+      "repoImage": "../../stock.png",
+      "deployLink": ""
    },
    {
       "repoTitle": "Bartending School",
       "repoLink": "https://github.com/KDeLaria/bartending-school",
       "repoDesc": "Quiz format to test your knowledge on the ingredients in popular drinks",
-      "repoImage": "../../bartender.png"
+      "repoImage": "../../bartender.png",
+      "deployLink": "https://kdelaria.github.io/bartending-school/"
    },
    {
       "repoTitle": "Ticket Wizard",
       "repoLink": "https://github.com/petemaynard/ticket_wizard",
       "repoDesc": "Similar to TicketMaster, a site where you can find (fake) concerts and purchase tickets",
-      "repoImage": "../../ticketwizard.png"
-   },
-   {
-      "repoTitle": "Project D",
-      "repoLink": "http",
-      "repoDesc": "What it is",
-      "repoImage": ""
-   },
+      "repoImage": "../../ticketwizard.png",
+      "deployLink": "https://ticket-wizard-pete-b1e8f95fed38.herokuapp.com/"
+   }
 ]
 
 
@@ -38,7 +35,9 @@ const projectsData = [
                   <div className="card-body">
                      <h4 className="card-title">{portfolio.repoTitle}</h4>
                      <p className="card-text">{portfolio.repoDesc}</p>
-                     <a href={portfolio.repoLink}>{portfolio.repoTitle}</a>
+                     <a href={portfolio.repoLink}>Github Respository</a>
+                     <br></br>
+                     <a href={portfolio.deployLink}>Deployed App</a>
                   </div>
                </div>
             ))}
